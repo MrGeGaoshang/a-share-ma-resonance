@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# 本地运行产物（报告与中间数据不应入库）
+*_report.json
+*.html
+!references/*.html
